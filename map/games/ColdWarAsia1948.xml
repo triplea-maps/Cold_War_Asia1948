@@ -1,0 +1,2501 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Cold War Asia: 1948" version="1.0"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <triplea minimumVersion="1.5"/>
+  <map>
+    <!-- Territory Definitions -->
+    <territory name="Akita"/>
+    <territory name="Altay Mountains Region"/>
+    <territory name="Amami"/>
+    <territory name="An Giang"/>
+    <territory name="Anhui"/>
+    <territory name="Aomori"/>
+    <territory name="Binh Dinh"/>
+    <territory name="Binh Phuoc"/>
+    <territory name="Binh Thuan"/>
+    <territory name="Ca Mau"/>
+    <territory name="Central Japan Mountains"/>
+    <territory name="Central Korea Mountains"/>
+    <territory name="Cheju Do"/>
+    <territory name="Chongqing"/>
+    <territory name="Chungcheongnam"/>
+    <territory name="Dak Lak"/>
+    <territory name="Data Box"/>
+    <territory name="Dien Bien"/>
+    <territory name="Fujian"/>
+    <territory name="Fukui"/>
+    <territory name="Fukuoka"/>
+    <territory name="Fukushima"/>
+    <territory name="Gai Lai"/>
+    <territory name="Gangwon"/>
+    <territory name="Gansu"/>
+    <territory name="Gifu"/>
+    <territory name="Guangdong"/>
+    <territory name="Guangxi"/>
+    <territory name="Guizhou"/>
+    <territory name="Gyeonggi"/>
+    <territory name="Gyeongsangbuk"/>
+    <territory name="Gyeongsangnam"/>
+    <territory name="Ha Giang"/>
+    <territory name="Ha Noi"/>
+    <territory name="Ha Tinh"/>
+    <territory name="Hainan"/>
+    <territory name="Hebei / Peking"/>
+    <territory name="Heilongjiang"/>
+    <territory name="Henan"/>
+    <territory name="Hiroshima"/>
+    <territory name="Hoa Binh"/>
+    <territory name="Hokkaido"/>
+    <territory name="Hubei"/>
+    <territory name="Hunan"/>
+    <territory name="Hyogo"/>
+    <territory name="Inner Mongolia East"/>
+    <territory name="Inner Mongolia West"/>
+    <territory name="Ishikawa"/>
+    <territory name="Iwate"/>
+    <territory name="Jeollanam"/>
+    <territory name="Jiangsu"/>
+    <territory name="Jiangxi"/>
+    <territory name="Jilin"/>
+    <territory name="Kagoshima"/>
+    <territory name="Kangwon"/>
+    <territory name="Khanh Hoa"/>
+    <territory name="Khrebet Dzhugdzhur"/>
+    <territory name="Kien Giang"/>
+    <territory name="Kom Tum"/>
+    <territory name="Kumamoto"/>
+    <territory name="Kuril Islands"/>
+    <territory name="Kyoto"/>
+    <territory name="Lai Chau"/>
+    <territory name="Lake Baikal Region"/>
+    <territory name="Lam Dong"/>
+    <territory name="Lang Son"/>
+    <territory name="Liaoning"/>
+    <territory name="Miyagi"/>
+    <territory name="Miyako"/>
+    <territory name="Mongolia"/>
+    <territory name="Nagano"/>
+    <territory name="Nagasaki"/>
+    <territory name="Nghe An"/>
+    <territory name="Niigata"/>
+    <territory name="North Cambodia"/>
+    <territory name="North China Mountains"/>
+    <territory name="North Hamgyong"/>
+    <territory name="North Hwangae"/>
+    <territory name="North Japan Mountains"/>
+    <territory name="North Kanto"/>
+    <territory name="North Korea Mountains"/>
+    <territory name="North Laos"/>
+    <territory name="North Pyongang"/>
+    <territory name="North Sakhalin"/>
+    <territory name="North Tibetan Plateau"/>
+    <territory name="Oita"/>
+    <territory name="Okayama"/>
+    <territory name="Okinawa"/>
+    <territory name="Osumi"/>
+    <territory name="Philippines"/>
+    <territory name="Pusan"/>
+    <territory name="Pyongyang"/>
+    <territory name="Qinghai"/>
+    <territory name="Quang Binh"/>
+    <territory name="Quang Nam"/>
+    <territory name="Quang Ngai"/>
+    <territory name="Quang Tri"/>
+    <territory name="Rason"/>
+    <territory name="Resupply from France"/>
+    <territory name="Ryangang"/>
+    <territory name="Saigon"/>
+    <territory name="Sea Zone 1" water="true"/>
+    <territory name="Sea Zone 10" water="true"/>
+    <territory name="Sea Zone 11" water="true"/>
+    <territory name="Sea Zone 12" water="true"/>
+    <territory name="Sea Zone 13" water="true"/>
+    <territory name="Sea Zone 14" water="true"/>
+    <territory name="Sea Zone 15" water="true"/>
+    <territory name="Sea Zone 19" water="true"/>
+    <territory name="Sea Zone 2" water="true"/>
+    <territory name="Sea Zone 20" water="true"/>
+    <territory name="Sea Zone 22" water="true"/>
+    <territory name="Sea Zone 23" water="true"/>
+    <territory name="Sea Zone 24" water="true"/>
+    <territory name="Sea Zone 25" water="true"/>
+    <territory name="Sea Zone 26" water="true"/>
+    <territory name="Sea Zone 27" water="true"/>
+    <territory name="Sea Zone 28" water="true"/>
+    <territory name="Sea Zone 29" water="true"/>
+    <territory name="Sea Zone 3" water="true"/>
+    <territory name="Sea Zone 30" water="true"/>
+    <territory name="Sea Zone 31" water="true"/>
+    <territory name="Sea Zone 32" water="true"/>
+    <territory name="Sea Zone 33" water="true"/>
+    <territory name="Sea Zone 35" water="true"/>
+    <territory name="Sea Zone 37" water="true"/>
+    <territory name="Sea Zone 38" water="true"/>
+    <territory name="Sea Zone 39" water="true"/>
+    <territory name="Sea Zone 4" water="true"/>
+    <territory name="Sea Zone 40" water="true"/>
+    <territory name="Sea Zone 41" water="true"/>
+    <territory name="Sea Zone 43" water="true"/>
+    <territory name="Sea Zone 44" water="true"/>
+    <territory name="Sea Zone 45" water="true"/>
+    <territory name="Sea Zone 46" water="true"/>
+    <territory name="Sea Zone 47" water="true"/>
+    <territory name="Sea Zone 48" water="true"/>
+    <territory name="Sea Zone 49" water="true"/>
+    <territory name="Sea Zone 5" water="true"/>
+    <territory name="Sea Zone 50" water="true"/>
+    <territory name="Sea Zone 51" water="true"/>
+    <territory name="Sea Zone 52" water="true"/>
+    <territory name="Sea Zone 53" water="true"/>
+    <territory name="Sea Zone 55" water="true"/>
+    <territory name="Sea Zone 57" water="true"/>
+    <territory name="Sea Zone 58" water="true"/>
+    <territory name="Sea Zone 59" water="true"/>
+    <territory name="Sea Zone 6" water="true"/>
+    <territory name="Sea Zone 60" water="true"/>
+    <territory name="Sea Zone 61" water="true"/>
+    <territory name="Sea Zone 64" water="true"/>
+    <territory name="Sea Zone 65" water="true"/>
+    <territory name="Sea Zone 66" water="true"/>
+    <territory name="Sea Zone 67" water="true"/>
+    <territory name="Sea Zone 69" water="true"/>
+    <territory name="Sea Zone 7" water="true"/>
+    <territory name="Sea Zone 70" water="true"/>
+    <territory name="Sea Zone 71" water="true"/>
+    <territory name="Sea Zone 72" water="true"/>
+    <territory name="Sea Zone 73" water="true"/>
+    <territory name="Sea Zone 74" water="true"/>
+    <territory name="Sea Zone 75" water="true"/>
+    <territory name="Sea Zone 76" water="true"/>
+    <territory name="Sea Zone 8" water="true"/>
+    <territory name="Sea Zone 9" water="true"/>
+    <territory name="Seoul"/>
+    <territory name="Shaanxi"/>
+    <territory name="Shandong"/>
+    <territory name="Shanxi"/>
+    <territory name="Shikoku East"/>
+    <territory name="Shikoku West"/>
+    <territory name="Shizuoka"/>
+    <territory name="Sichuan"/>
+    <territory name="Sikhote-Alin"/>
+    <territory name="Soc Trang"/>
+    <territory name="Son La"/>
+    <territory name="South Cambodia"/>
+    <territory name="South Laos"/>
+    <territory name="South Hamgyong"/>
+    <territory name="South Hwangae"/>
+    <territory name="South Kansai"/>
+    <territory name="South Korea Mountains"/>
+    <territory name="South Pyongang"/>
+    <territory name="South Sakhalin"/>
+    <territory name="South Tibetan Plateau"/>
+    <territory name="Soviet support to Communist Chinese"/>
+    <territory name="Soviet support to North Japan"/>
+    <territory name="Soviet support to North Korea"/>
+    <territory name="Soviet support to Viet Minh"/>
+    <territory name="Formosa"/>
+    <territory name="Thai Binh"/>
+    <territory name="Thailand"/>
+    <territory name="Thanh Hoa"/>
+    <territory name="Thua Thien-Hue"/>
+    <territory name="Tibet"/>
+    <territory name="Tokyo"/>
+    <territory name="Tsushima"/>
+    <territory name="Tuyen Quang"/>
+    <territory name="United States West Coast"/>
+    <territory name="Xinjiang"/>
+    <territory name="Yaeyama"/>
+    <territory name="Yamagata"/>
+    <territory name="Yamaguchi"/>
+    <territory name="Yunnan"/>
+    <territory name="Zhejiang"/>
+    <!-- Territory Connections -->
+    <connection t1="Akita" t2="Aomori"/>
+    <connection t1="Akita" t2="Sea Zone 6"/>
+    <connection t1="Akita" t2="Yamagata"/>
+    <connection t1="Amami" t2="Sea Zone 64"/>
+    <connection t1="An Giang" t2="Kien Giang"/>
+    <connection t1="An Giang" t2="Saigon"/>
+    <connection t1="An Giang" t2="South Cambodia"/>
+    <connection t1="Anhui" t2="Henan"/>
+    <connection t1="Anhui" t2="Hubei"/>
+    <connection t1="Anhui" t2="Jiangsu"/>
+    <connection t1="Anhui" t2="Jiangxi"/>
+    <connection t1="Anhui" t2="Shandong"/>
+    <connection t1="Anhui" t2="Zhejiang"/>
+    <connection t1="Aomori" t2="Iwate"/>
+    <connection t1="Aomori" t2="Sea Zone 6"/>
+    <connection t1="Aomori" t2="Sea Zone 7"/>
+    <connection t1="Binh Dinh" t2="Dak Lak"/>
+    <connection t1="Binh Dinh" t2="Gai Lai"/>
+    <connection t1="Binh Dinh" t2="Khanh Hoa"/>
+    <connection t1="Binh Dinh" t2="Quang Ngai"/>
+    <connection t1="Binh Dinh" t2="Sea Zone 66"/>
+    <connection t1="Binh Phuoc" t2="Binh Thuan"/>
+    <connection t1="Binh Phuoc" t2="Lam Dong"/>
+    <connection t1="Binh Phuoc" t2="Saigon"/>
+    <connection t1="Binh Phuoc" t2="South Cambodia"/>
+    <connection t1="Binh Thuan" t2="Khanh Hoa"/>
+    <connection t1="Binh Thuan" t2="Lam Dong"/>
+    <connection t1="Binh Thuan" t2="Saigon"/>
+    <connection t1="Binh Thuan" t2="Sea Zone 71"/>
+    <connection t1="Binh Thuan" t2="Sea Zone 72"/>
+    <connection t1="Ca Mau" t2="Kien Giang"/>
+    <connection t1="Ca Mau" t2="Sea Zone 70"/>
+    <connection t1="Ca Mau" t2="Sea Zone 71"/>
+    <connection t1="Ca Mau" t2="Soc Trang"/>
+    <connection t1="Cheju Do" t2="Sea Zone 38"/>
+    <connection t1="Chongqing" t2="Guizhou"/>
+    <connection t1="Chongqing" t2="Hubei"/>
+    <connection t1="Chongqing" t2="Hunan"/>
+    <connection t1="Chongqing" t2="Shaanxi"/>
+    <connection t1="Chongqing" t2="Sichuan"/>
+    <connection t1="Chungcheongnam" t2="Gyeonggi"/>
+    <connection t1="Chungcheongnam" t2="Gyeongsangbuk"/>
+    <connection t1="Chungcheongnam" t2="Gyeongsangnam"/>
+    <connection t1="Chungcheongnam" t2="Jeollanam"/>
+    <connection t1="Chungcheongnam" t2="Sea Zone 33"/>
+    <connection t1="Chungcheongnam" t2="Sea Zone 38"/>
+    <connection t1="Dak Lak" t2="Gai Lai"/>
+    <connection t1="Dak Lak" t2="Khanh Hoa"/>
+    <connection t1="Dak Lak" t2="Lam Dong"/>
+    <connection t1="Dak Lak" t2="North Cambodia"/>
+    <connection t1="Dien Bien" t2="Lai Chau"/>
+    <connection t1="Dien Bien" t2="North Laos"/>
+    <connection t1="Dien Bien" t2="Son La"/>
+    <connection t1="Fujian" t2="Guangdong"/>
+    <connection t1="Fujian" t2="Jiangxi"/>
+    <connection t1="Fujian" t2="Sea Zone 31"/>
+    <connection t1="Fujian" t2="Zhejiang"/>
+    <connection t1="Fukui" t2="Gifu"/>
+    <connection t1="Fukui" t2="Ishikawa"/>
+    <connection t1="Fukui" t2="Kyoto"/>
+    <connection t1="Fukui" t2="Sea Zone 10"/>
+    <connection t1="Fukuoka" t2="Sea Zone 44"/>
+    <connection t1="Fukuoka" t2="Sea Zone 19"/>
+    <connection t1="Fukuoka" t2="Kumamoto"/>
+    <connection t1="Fukuoka" t2="Yamaguchi"/>
+    <connection t1="Fukushima" t2="Miyagi"/>
+    <connection t1="Fukushima" t2="Niigata"/>
+    <connection t1="Fukushima" t2="North Kanto"/>
+    <connection t1="Fukushima" t2="Sea Zone 12"/>
+    <connection t1="Fukushima" t2="Yamagata"/>
+    <connection t1="Gai Lai" t2="Kom Tum"/>
+    <connection t1="Gai Lai" t2="North Cambodia"/>
+    <connection t1="Gangwon" t2="Gyeongsangbuk"/>
+    <connection t1="Gangwon" t2="Kangwon"/>
+    <connection t1="Gangwon" t2="Sea Zone 8"/>
+    <connection t1="Gansu" t2="Inner Mongolia West"/>
+    <connection t1="Gansu" t2="Mongolia"/>
+    <connection t1="Gansu" t2="Qinghai"/>
+    <connection t1="Gansu" t2="Shaanxi"/>
+    <connection t1="Gansu" t2="Sichuan"/>
+    <connection t1="Gansu" t2="Xinjiang"/>
+    <connection t1="Gifu" t2="Ishikawa"/>
+    <connection t1="Gifu" t2="Kyoto"/>
+    <connection t1="Gifu" t2="Nagano"/>
+    <connection t1="Gifu" t2="Shizuoka"/>
+    <connection t1="Guangdong" t2="Guangxi"/>
+    <connection t1="Guangdong" t2="Hunan"/>
+    <connection t1="Guangdong" t2="Jiangxi"/>
+    <connection t1="Guangdong" t2="Sea Zone 31"/>
+    <connection t1="Guangdong" t2="Sea Zone 35"/>
+    <connection t1="Guangxi" t2="Guizhou"/>
+    <connection t1="Guangxi" t2="Ha Giang"/>
+    <connection t1="Guangxi" t2="Hunan"/>
+    <connection t1="Guangxi" t2="Lang Son"/>
+    <connection t1="Guangxi" t2="Sea Zone 35"/>
+    <connection t1="Guangxi" t2="Yunnan"/>
+    <connection t1="Guizhou" t2="Hunan"/>
+    <connection t1="Guizhou" t2="Sichuan"/>
+    <connection t1="Guizhou" t2="Yunnan"/>
+    <connection t1="Gyeonggi" t2="Gyeongsangbuk"/>
+    <connection t1="Gyeonggi" t2="Sea Zone 33"/>
+    <connection t1="Gyeonggi" t2="Seoul"/>
+    <connection t1="Gyeongsangbuk" t2="Pusan"/>
+    <connection t1="Gyeongsangbuk" t2="Sea Zone 13"/>
+    <connection t1="Gyeongsangnam" t2="Jeollanam"/>
+    <connection t1="Gyeongsangnam" t2="Pusan"/>
+    <connection t1="Gyeongsangnam" t2="Sea Zone 39"/>
+    <connection t1="Ha Giang" t2="Lai Chau"/>
+    <connection t1="Ha Giang" t2="Lang Son"/>
+    <connection t1="Ha Giang" t2="Tuyen Quang"/>
+    <connection t1="Ha Giang" t2="Yunnan"/>
+    <connection t1="Ha Noi" t2="Hoa Binh"/>
+    <connection t1="Ha Noi" t2="Lang Son"/>
+    <connection t1="Ha Noi" t2="Son La"/>
+    <connection t1="Ha Noi" t2="Thai Binh"/>
+    <connection t1="Ha Noi" t2="Tuyen Quang"/>
+    <connection t1="Ha Tinh" t2="North Laos"/>
+    <connection t1="Ha Tinh" t2="Quang Binh"/>
+    <connection t1="Ha Tinh" t2="Sea Zone 51"/>
+    <connection t1="Hainan" t2="Sea Zone 35"/>
+    <connection t1="Hebei / Peking" t2="Liaoning"/>
+    <connection t1="Hebei / Peking" t2="Sea Zone 28"/>
+    <connection t1="Hebei / Peking" t2="Shandong"/>
+    <connection t1="Hebei / Peking" t2="Shanxi"/>
+    <connection t1="Heilongjiang" t2="Inner Mongolia East"/>
+    <connection t1="Heilongjiang" t2="Jilin"/>
+    <connection t1="Henan" t2="Hebei / Peking"/>
+    <connection t1="Henan" t2="Shaanxi"/>
+    <connection t1="Henan" t2="Shandong"/>
+    <connection t1="Henan" t2="Shanxi"/>
+    <connection t1="Hiroshima" t2="Okayama"/>
+    <connection t1="Hiroshima" t2="Sea Zone 14"/>
+    <connection t1="Hiroshima" t2="Sea Zone 19"/>
+    <connection t1="Hiroshima" t2="Sea Zone 20"/>
+    <connection t1="Hiroshima" t2="Yamaguchi"/>
+    <connection t1="Hoa Binh" t2="Sea Zone 51"/>
+    <connection t1="Hoa Binh" t2="Son La"/>
+    <connection t1="Hoa Binh" t2="Thai Binh"/>
+    <connection t1="Hoa Binh" t2="Thanh Hoa"/>
+    <connection t1="Hokkaido" t2="Sea Zone 1"/>
+    <connection t1="Hubei" t2="Hunan"/>
+    <connection t1="Hubei" t2="Henan"/>
+    <connection t1="Hubei" t2="Jiangxi"/>
+    <connection t1="Hubei" t2="Shaanxi"/>
+    <connection t1="Hunan" t2="Jiangxi"/>
+    <connection t1="Hyogo" t2="Kyoto"/>
+    <connection t1="Hyogo" t2="Okayama"/>
+    <connection t1="Hyogo" t2="Sea Zone 10"/>
+    <connection t1="Hyogo" t2="Sea Zone 20"/>
+    <connection t1="Hyogo" t2="Sea Zone 23"/>
+    <connection t1="Hyogo" t2="Shikoku East"/>
+    <connection t1="Hyogo" t2="South Kansai"/>
+    <connection t1="Inner Mongolia East" t2="Inner Mongolia West"/>
+    <connection t1="Inner Mongolia East" t2="Mongolia"/>
+    <connection t1="Inner Mongolia West" t2="Mongolia"/>
+    <connection t1="Inner Mongolia West" t2="Shaanxi"/>
+    <connection t1="Ishikawa" t2="Nagano"/>
+    <connection t1="Ishikawa" t2="Niigata"/>
+    <connection t1="Ishikawa" t2="Sea Zone 11"/>
+    <connection t1="Iwate" t2="Miyagi"/>
+    <connection t1="Iwate" t2="Sea Zone 7"/>
+    <connection t1="Jeollanam" t2="Sea Zone 38"/>
+    <connection t1="Jeollanam" t2="Sea Zone 39"/>
+    <connection t1="Jiangsu" t2="Sea Zone 29"/>
+    <connection t1="Jiangsu" t2="Shandong"/>
+    <connection t1="Jiangsu" t2="Zhejiang"/>
+    <connection t1="Jiangxi" t2="Zhejiang"/>
+    <connection t1="Jilin" t2="Liaoning"/>
+    <connection t1="Jilin" t2="North Hamgyong"/>
+    <connection t1="Jilin" t2="North Pyongang"/>
+    <connection t1="Jilin" t2="Rason"/>
+    <connection t1="Jilin" t2="Ryangang"/>
+    <connection t1="Kagoshima" t2="Kumamoto"/>
+    <connection t1="Kagoshima" t2="Sea Zone 46"/>
+    <connection t1="Kangwon" t2="Sea Zone 8"/>
+    <connection t1="Kangwon" t2="South Hamgyong"/>
+    <connection t1="Khanh Hoa" t2="Lam Dong"/>
+    <connection t1="Khanh Hoa" t2="Sea Zone 66"/>
+    <connection t1="Khanh Hoa" t2="Sea Zone 72"/>
+    <connection t1="Kien Giang" t2="Saigon"/>
+    <connection t1="Kien Giang" t2="Sea Zone 70"/>
+    <connection t1="Kien Giang" t2="Soc Trang"/>
+    <connection t1="Kien Giang" t2="South Cambodia"/>
+    <connection t1="Kom Tum" t2="North Cambodia"/>
+    <connection t1="Kom Tum" t2="Quang Nam"/>
+    <connection t1="Kom Tum" t2="Quang Ngai"/>
+    <connection t1="Kom Tum" t2="South Laos"/>
+    <connection t1="Kumamoto" t2="Sea Zone 44"/>
+    <connection t1="Kumamoto" t2="Sea Zone 22"/>
+    <connection t1="Kuril Islands" t2="Sea Zone 76"/>
+    <connection t1="Kyoto" t2="Sea Zone 10"/>
+    <connection t1="Kyoto" t2="Sea Zone 24"/>
+    <connection t1="Kyoto" t2="Shizuoka"/>
+    <connection t1="Kyoto" t2="South Kansai"/>
+    <connection t1="Lai Chau" t2="Son La"/>
+    <connection t1="Lai Chau" t2="Tuyen Quang"/>
+    <connection t1="Lai Chau" t2="Yunnan"/>
+    <connection t1="Lam Dong" t2="North Cambodia"/>
+    <connection t1="Lang Son" t2="Sea Zone 40"/>
+    <connection t1="Lang Son" t2="Thai Binh"/>
+    <connection t1="Lang Son" t2="Tuyen Quang"/>
+    <connection t1="Liaoning" t2="North Pyongang"/>
+    <connection t1="Liaoning" t2="Sea Zone 28"/>
+    <connection t1="Miyagi" t2="Sea Zone 12"/>
+    <connection t1="Miyako" t2="Sea Zone 67"/>
+    <connection t1="Mongolia" t2="Xinjiang"/>
+    <connection t1="Nagano" t2="Niigata"/>
+    <connection t1="Nagano" t2="North Kanto"/>
+    <connection t1="Nagano" t2="Shizuoka"/>
+    <connection t1="Nagasaki" t2="Sea Zone 44"/>
+    <connection t1="Nagasaki" t2="Fukuoka"/>
+    <connection t1="Nghe An" t2="North Laos"/>
+    <connection t1="Nghe An" t2="Sea Zone 51"/>
+    <connection t1="Nghe An" t2="Thanh Hoa"/>
+    <connection t1="Nghe An" t2="Ha Tinh"/>
+    <connection t1="Niigata" t2="North Kanto"/>
+    <connection t1="Niigata" t2="Sea Zone 11"/>
+    <connection t1="Niigata" t2="Yamagata"/>
+    <connection t1="North Cambodia" t2="South Cambodia"/>
+    <connection t1="North Cambodia" t2="South Laos"/>
+    <connection t1="North Cambodia" t2="Thailand"/>
+    <connection t1="North Hamgyong" t2="Rason"/>
+    <connection t1="North Hamgyong" t2="Ryangang"/>
+    <connection t1="North Hamgyong" t2="Sea Zone 3"/>
+    <connection t1="North Hamgyong" t2="South Hamgyong"/>
+    <connection t1="North Hwangae" t2="Pyongyang"/>
+    <connection t1="North Hwangae" t2="Gyeonggi"/>
+    <connection t1="North Hwangae" t2="Seoul"/>
+    <connection t1="North Hwangae" t2="South Hamgyong"/>
+    <connection t1="North Hwangae" t2="South Hwangae"/>
+    <connection t1="North Hwangae" t2="South Pyongang"/>
+    <connection t1="North Kanto" t2="Sea Zone 15"/>
+    <connection t1="North Kanto" t2="Tokyo"/>
+    <connection t1="North Laos" t2="Quang Binh"/>
+    <connection t1="North Laos" t2="Son La"/>
+    <connection t1="North Laos" t2="South Laos"/>
+    <connection t1="North Laos" t2="Thailand"/>
+    <connection t1="North Laos" t2="Thanh Hoa"/>
+    <connection t1="North Pyongang" t2="Sea Zone 28"/>
+    <connection t1="North Pyongang" t2="South Hamgyong"/>
+    <connection t1="North Pyongang" t2="South Pyongang"/>
+    <connection t1="North Sakhalin" t2="Sea Zone 75"/>
+    <connection t1="North Sakhalin" t2="South Sakhalin"/>
+    <connection t1="Oita" t2="Sea Zone 19"/>
+    <connection t1="Oita" t2="Sea Zone 22"/>
+    <connection t1="Oita" t2="Shikoku West"/>
+    <connection t1="Oita" t2="Kumamoto"/>
+    <connection t1="Oita" t2="Fukuoka"/>
+    <connection t1="Okayama" t2="Sea Zone 14"/>
+    <connection t1="Okayama" t2="Sea Zone 20"/>
+    <connection t1="Okinawa" t2="Sea Zone 64"/>
+    <connection t1="Osumi" t2="Sea Zone 46"/>
+    <connection t1="Philippines" t2="Sea Zone 74"/>
+    <connection t1="Pusan" t2="Sea Zone 13"/>
+    <connection t1="Pusan" t2="Sea Zone 39"/>
+    <connection t1="Pyongyang" t2="South Hwangae"/>
+    <connection t1="Pyongyang" t2="South Pyongang"/>
+    <connection t1="Qinghai" t2="Sichuan"/>
+    <connection t1="Qinghai" t2="Xinjiang"/>
+    <connection t1="Quang Binh" t2="Quang Tri"/>
+    <connection t1="Quang Binh" t2="Sea Zone 52"/>
+    <connection t1="Quang Nam" t2="Quang Ngai"/>
+    <connection t1="Quang Nam" t2="Sea Zone 61"/>
+    <connection t1="Quang Nam" t2="South Laos"/>
+    <connection t1="Quang Nam" t2="Thua Thien-Hue"/>
+    <connection t1="Quang Ngai" t2="Sea Zone 53"/>
+    <connection t1="Quang Ngai" t2="Sea Zone 61"/>
+    <connection t1="Quang Ngai" t2="Sea Zone 66"/>
+    <connection t1="Quang Ngai" t2="Gai Lai"/>
+    <connection t1="Quang Tri" t2="Sea Zone 61"/>
+    <connection t1="Quang Tri" t2="South Laos"/>
+    <connection t1="Quang Tri" t2="Thua Thien-Hue"/>
+    <connection t1="Rason" t2="Sea Zone 3"/>
+    <connection t1="Ryangang" t2="South Hamgyong"/>
+    <connection t1="Saigon" t2="Sea Zone 71"/>
+    <connection t1="Saigon" t2="Soc Trang"/>
+    <connection t1="Saigon" t2="South Cambodia"/>
+    <connection t1="Sea Zone 1" t2="Sea Zone 2"/>
+    <connection t1="Sea Zone 1" t2="Sea Zone 5"/>
+    <connection t1="Sea Zone 1" t2="Sea Zone 6"/>
+    <connection t1="Sea Zone 1" t2="Sea Zone 7"/>
+    <connection t1="Sea Zone 1" t2="Sea Zone 75"/>
+    <connection t1="Sea Zone 1" t2="Sea Zone 76"/>
+    <connection t1="Sea Zone 10" t2="Sea Zone 14"/>
+    <connection t1="Sea Zone 10" t2="Sea Zone 5"/>
+    <connection t1="Sea Zone 10" t2="Sea Zone 9"/>
+    <connection t1="Sea Zone 11" t2="Sea Zone 5"/>
+    <connection t1="Sea Zone 11" t2="Sea Zone 6"/>
+    <connection t1="Sea Zone 11" t2="Yamagata"/>
+    <connection t1="Sea Zone 12" t2="Sea Zone 15"/>
+    <connection t1="Sea Zone 12" t2="Sea Zone 7"/>
+    <connection t1="Sea Zone 13" t2="Sea Zone 14"/>
+    <connection t1="Sea Zone 13" t2="Sea Zone 39"/>
+    <connection t1="Sea Zone 13" t2="Sea Zone 9"/>
+    <connection t1="Sea Zone 14" t2="Sea Zone 44"/>
+    <connection t1="Sea Zone 14" t2="Sea Zone 9"/>
+    <connection t1="Sea Zone 15" t2="Sea Zone 24"/>
+    <connection t1="Sea Zone 15" t2="Sea Zone 25"/>
+    <connection t1="Sea Zone 15" t2="Tokyo"/>
+    <connection t1="Sea Zone 19" t2="Sea Zone 20"/>
+    <connection t1="Sea Zone 19" t2="Sea Zone 22"/>
+    <connection t1="Sea Zone 19" t2="Sea Zone 44"/>
+    <connection t1="Sea Zone 19" t2="Shikoku West"/>
+    <connection t1="Sea Zone 19" t2="Yamaguchi"/>
+    <connection t1="Sea Zone 2" t2="Sea Zone 3"/>
+    <connection t1="Sea Zone 2" t2="Sea Zone 4"/>
+    <connection t1="Sea Zone 2" t2="Sea Zone 5"/>
+    <connection t1="Sea Zone 20" t2="Sea Zone 23"/>
+    <connection t1="Sea Zone 20" t2="Shikoku East"/>
+    <connection t1="Sea Zone 20" t2="Shikoku West"/>
+    <connection t1="Sea Zone 22" t2="Sea Zone 23"/>
+    <connection t1="Sea Zone 22" t2="Sea Zone 47"/>
+    <connection t1="Sea Zone 22" t2="Sea Zone 48"/>
+    <connection t1="Sea Zone 22" t2="Shikoku East"/>
+    <connection t1="Sea Zone 22" t2="Shikoku West"/>
+    <connection t1="Sea Zone 23" t2="Sea Zone 24"/>
+    <connection t1="Sea Zone 23" t2="Sea Zone 26"/>
+    <connection t1="Sea Zone 23" t2="Sea Zone 48"/>
+    <connection t1="Sea Zone 23" t2="Shikoku East"/>
+    <connection t1="Sea Zone 23" t2="South Kansai"/>
+    <connection t1="Sea Zone 24" t2="Sea Zone 25"/>
+    <connection t1="Sea Zone 24" t2="Sea Zone 26"/>
+    <connection t1="Sea Zone 24" t2="Shizuoka"/>
+    <connection t1="Sea Zone 24" t2="South Kansai"/>
+    <connection t1="Sea Zone 24" t2="Tokyo"/>
+    <connection t1="Sea Zone 25" t2="Sea Zone 27"/>
+    <connection t1="Sea Zone 26" t2="Sea Zone 27"/>
+    <connection t1="Sea Zone 26" t2="Sea Zone 49"/>
+    <connection t1="Sea Zone 27" t2="Sea Zone 50"/>
+    <connection t1="Sea Zone 28" t2="Sea Zone 29"/>
+    <connection t1="Sea Zone 28" t2="Sea Zone 30"/>
+    <connection t1="Sea Zone 28" t2="Shandong"/>
+    <connection t1="Sea Zone 28" t2="South Pyongang"/>
+    <connection t1="Sea Zone 29" t2="Sea Zone 30"/>
+    <connection t1="Sea Zone 29" t2="Sea Zone 31"/>
+    <connection t1="Sea Zone 29" t2="Sea Zone 32"/>
+    <connection t1="Sea Zone 29" t2="Zhejiang"/>
+    <connection t1="Sea Zone 3" t2="Sea Zone 4"/>
+    <connection t1="Sea Zone 3" t2="South Hamgyong"/>
+    <connection t1="Sea Zone 30" t2="Sea Zone 33"/>
+    <connection t1="Sea Zone 30" t2="South Hwangae"/>
+    <connection t1="Sea Zone 30" t2="South Pyongang"/>
+    <connection t1="Sea Zone 31" t2="Sea Zone 35"/>
+    <connection t1="Sea Zone 31" t2="Sea Zone 37"/>
+    <connection t1="Sea Zone 31" t2="Formosa"/>
+    <connection t1="Sea Zone 32" t2="Sea Zone 33"/>
+    <connection t1="Sea Zone 32" t2="Sea Zone 38"/>
+    <connection t1="Sea Zone 33" t2="Sea Zone 38"/>
+    <connection t1="Sea Zone 33" t2="Seoul"/>
+    <connection t1="Sea Zone 33" t2="South Hwangae"/>
+    <connection t1="Sea Zone 35" t2="Sea Zone 37"/>
+    <connection t1="Sea Zone 35" t2="Sea Zone 40"/>
+    <connection t1="Sea Zone 35" t2="Sea Zone 41"/>
+    <connection t1="Sea Zone 37" t2="Sea Zone 38"/>
+    <connection t1="Sea Zone 37" t2="Sea Zone 41"/>
+    <connection t1="Sea Zone 38" t2="Sea Zone 39"/>
+    <connection t1="Sea Zone 38" t2="Sea Zone 43"/>
+    <connection t1="Sea Zone 38" t2="Sea Zone 44"/>
+    <connection t1="Sea Zone 39" t2="Sea Zone 44"/>
+    <connection t1="Sea Zone 4" t2="Sea Zone 5"/>
+    <connection t1="Sea Zone 4" t2="Sea Zone 8"/>
+    <connection t1="Sea Zone 4" t2="Sea Zone 9"/>
+    <connection t1="Sea Zone 40" t2="Sea Zone 41"/>
+    <connection t1="Sea Zone 40" t2="Sea Zone 51"/>
+    <connection t1="Sea Zone 40" t2="Sea Zone 52"/>
+    <connection t1="Sea Zone 40" t2="Thai Binh"/>
+    <connection t1="Sea Zone 41" t2="Sea Zone 43"/>
+    <connection t1="Sea Zone 41" t2="Sea Zone 52"/>
+    <connection t1="Sea Zone 41" t2="Sea Zone 53"/>
+    <connection t1="Sea Zone 41" t2="Sea Zone 55"/>
+    <connection t1="Sea Zone 43" t2="Sea Zone 44"/>
+    <connection t1="Sea Zone 43" t2="Sea Zone 45"/>
+    <connection t1="Sea Zone 43" t2="Sea Zone 55"/>
+    <connection t1="Sea Zone 44" t2="Sea Zone 45"/>
+    <connection t1="Sea Zone 44" t2="Sea Zone 46"/>
+    <connection t1="Sea Zone 44" t2="Tsushima"/>
+    <connection t1="Sea Zone 45" t2="Sea Zone 46"/>
+    <connection t1="Sea Zone 45" t2="Sea Zone 55"/>
+    <connection t1="Sea Zone 45" t2="Sea Zone 64"/>
+    <connection t1="Sea Zone 46" t2="Sea Zone 47"/>
+    <connection t1="Sea Zone 46" t2="Sea Zone 57"/>
+    <connection t1="Sea Zone 46" t2="Sea Zone 64"/>
+    <connection t1="Sea Zone 47" t2="Sea Zone 48"/>
+    <connection t1="Sea Zone 47" t2="Sea Zone 57"/>
+    <connection t1="Sea Zone 48" t2="Sea Zone 49"/>
+    <connection t1="Sea Zone 48" t2="Sea Zone 57"/>
+    <connection t1="Sea Zone 48" t2="Sea Zone 58"/>
+    <connection t1="Sea Zone 49" t2="Sea Zone 50"/>
+    <connection t1="Sea Zone 49" t2="Sea Zone 59"/>
+    <connection t1="Sea Zone 5" t2="Sea Zone 6"/>
+    <connection t1="Sea Zone 5" t2="Sea Zone 9"/>
+    <connection t1="Sea Zone 50" t2="Sea Zone 60"/>
+    <connection t1="Sea Zone 51" t2="Sea Zone 52"/>
+    <connection t1="Sea Zone 51" t2="Thanh Hoa"/>
+    <connection t1="Sea Zone 52" t2="Sea Zone 53"/>
+    <connection t1="Sea Zone 52" t2="Sea Zone 61"/>
+    <connection t1="Sea Zone 53" t2="Sea Zone 55"/>
+    <connection t1="Sea Zone 53" t2="Sea Zone 61"/>
+    <connection t1="Sea Zone 53" t2="Sea Zone 66"/>
+    <connection t1="Sea Zone 53" t2="Sea Zone 67"/>
+    <connection t1="Sea Zone 55" t2="Sea Zone 64"/>
+    <connection t1="Sea Zone 55" t2="Sea Zone 67"/>
+    <connection t1="Sea Zone 57" t2="Sea Zone 58"/>
+    <connection t1="Sea Zone 57" t2="Sea Zone 64"/>
+    <connection t1="Sea Zone 57" t2="Sea Zone 65"/>
+    <connection t1="Sea Zone 58" t2="Sea Zone 59"/>
+    <connection t1="Sea Zone 58" t2="Sea Zone 65"/>
+    <connection t1="Sea Zone 59" t2="Sea Zone 60"/>
+    <connection t1="Sea Zone 6" t2="Sea Zone 7"/>
+    <connection t1="Sea Zone 60" t2="United States West Coast"/>
+    <connection t1="Sea Zone 61" t2="Thua Thien-Hue"/>
+    <connection t1="Sea Zone 64" t2="Sea Zone 65"/>
+    <connection t1="Sea Zone 64" t2="Sea Zone 67"/>
+    <connection t1="Sea Zone 64" t2="Sea Zone 69"/>
+    <connection t1="Sea Zone 65" t2="Sea Zone 69"/>
+    <connection t1="Sea Zone 65" t2="Sea Zone 74"/>
+    <connection t1="Sea Zone 66" t2="Sea Zone 67"/>
+    <connection t1="Sea Zone 66" t2="Sea Zone 72"/>
+    <connection t1="Sea Zone 66" t2="Sea Zone 73"/>
+    <connection t1="Sea Zone 67" t2="Sea Zone 69"/>
+    <connection t1="Sea Zone 67" t2="Sea Zone 73"/>
+    <connection t1="Sea Zone 67" t2="Yaeyama"/>
+    <connection t1="Sea Zone 69" t2="Sea Zone 73"/>
+    <connection t1="Sea Zone 69" t2="Sea Zone 74"/>
+    <connection t1="Sea Zone 70" t2="Sea Zone 71"/>
+    <connection t1="Sea Zone 70" t2="South Cambodia"/>
+    <connection t1="Sea Zone 70" t2="Thailand"/>
+    <connection t1="Sea Zone 71" t2="Sea Zone 72"/>
+    <connection t1="Sea Zone 71" t2="Soc Trang"/>
+    <connection t1="Sea Zone 72" t2="Sea Zone 73"/>
+    <connection t1="Sea Zone 73" t2="Sea Zone 74"/>
+    <connection t1="Sea Zone 8" t2="Sea Zone 9"/>
+    <connection t1="Seoul" t2="South Hwangae"/>
+    <connection t1="Shaanxi" t2="Shanxi"/>
+    <connection t1="Shaanxi" t2="Sichuan"/>
+    <connection t1="Shikoku East" t2="Shikoku West"/>
+    <connection t1="Sichuan" t2="Tibet"/>
+    <connection t1="Sichuan" t2="Yunnan"/>
+    <connection t1="Son La" t2="Thanh Hoa"/>
+    <connection t1="Son La" t2="Tuyen Quang"/>
+    <connection t1="South Cambodia" t2="Thailand"/>
+    <connection t1="South Hamgyong" t2="South Pyongang"/>
+    <connection t1="South Hwangae" t2="South Pyongang"/>
+    <connection t1="South Laos" t2="Thailand"/>
+    <connection t1="South Laos" t2="Thua Thien-Hue"/>
+    <connection t1="South Sakhalin" t2="Sea Zone 75"/>
+    <connection t1="Resupply from France" t2="Sea Zone 70"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In Turn Order -->
+    <player name="PLA.China" optional="false"/>
+    <player name="RoChina" optional="false"/>
+    <player name="N.Korea" optional="false"/>
+    <player name="S.Korea" optional="false"/>
+    <player name="Americans" optional="false"/>
+    <player name="Viet.Minh" optional="false"/>
+    <player name="France" optional="false"/>
+    <player name="Vietnam" optional="false"/>
+    <player name="Neutral" optional="false"/>
+    <alliance player="Americans" alliance="Democracies"/>
+    <alliance player="France" alliance="Democracies"/>
+    <alliance player="N.Korea" alliance="Communists"/>
+    <alliance player="Viet.Minh" alliance="Communists"/>
+    <alliance player="PLA.China" alliance="Communists"/>
+    <alliance player="RoChina" alliance="Democracies"/>
+    <alliance player="S.Korea" alliance="Democracies"/>
+    <alliance player="Vietnam" alliance="Democracies"/>
+    <alliance player="Neutral" alliance="Democracies"/>
+  </playerList>
+  <unitList>
+    <unit name="aaGun"/>
+    <unit name="armour"/>
+    <unit name="artillery"/>
+    <unit name="battleship"/>
+    <unit name="bomber"/>
+    <unit name="bunker"/>
+    <unit name="carrier"/>
+    <unit name="cruiser"/>
+    <unit name="destroyer"/>
+    <unit name="factory"/>
+    <unit name="factory_hit"/>
+    <unit name="infantry"/>
+    <unit name="fighter"/>
+    <unit name="general"/>
+    <unit name="halftrack"/>
+    <unit name="submarine"/>
+    <unit name="TrailConvoy"/>
+    <unit name="transport"/>
+    <unit name="VietCong"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <!-- Bidding Phase -->
+      <step name="AmericansBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
+      <step name="FranceBidPlace" delegate="placeBid" player="France" maxRunCount="1"/>
+      <step name="N.KoreaBidPlace" delegate="placeBid" player="N.Korea" maxRunCount="1"/>
+      <step name="Viet.MinhBidPlace" delegate="placeBid" player="Viet.Minh" maxRunCount="1"/>
+      <step name="PLA.ChinaBidPlace" delegate="placeBid" player="PLA.China" maxRunCount="1"/>
+      <step name="RoChinaBidPlace" delegate="placeBid" player="RoChina" maxRunCount="1"/>
+      <step name="S.KoreaBidPlace" delegate="placeBid" player="S.Korea" maxRunCount="1"/>
+      <step name="VietnamBidPlace" delegate="placeBid" player="Vietnam" maxRunCount="1"/>
+      <!-- PLA.China Game Sequence -->
+      <!-- step name="PLA.ChinaTech" delegate="tech" player="PLA.China"/ -->
+      <step name="PLA.ChinaPurchase" delegate="purchase" player="PLA.China"/>
+      <step name="PLA.ChinaCombatMove" delegate="move" player="PLA.China"/>
+      <step name="PLA.ChinaBattle" delegate="battle" player="PLA.China"/>
+      <step name="PLA.ChinaNonCombatMove" delegate="move" player="PLA.China" display="Non Combat Move"/>
+      <step name="PLA.ChinaPlace" delegate="place" player="PLA.China"/>
+      <!-- step name="PLA.ChinaTechActivation" delegate="tech_activation" player="PLA.China"/ -->
+      <step name="PLA.ChinaEndTurn" delegate="endTurn" player="PLA.China"/>
+      <!-- RoChina Game Sequence -->
+      <!-- step name="RoChinaTech" delegate="tech" player="RoChina"/ -->
+      <step name="RoChinaPurchase" delegate="purchase" player="RoChina"/>
+      <step name="RoChinaCombatMove" delegate="move" player="RoChina"/>
+      <step name="RoChinaBattle" delegate="battle" player="RoChina"/>
+      <step name="RoChinaNonCombatMove" delegate="move" player="RoChina" display="Non Combat Move"/>
+      <step name="RoChinaPlace" delegate="place" player="RoChina"/>
+      <!-- name="RoChinaTechActivation" delegate="tech_activation" player="RoChina"/ -->
+      <step name="RoChinaEndTurn" delegate="endTurn" player="RoChina"/>
+      <!-- N.Korea Game Sequence -->
+      <!-- step name="N.KoreaTech" delegate="tech" player="N.Korea"/ -->
+      <step name="N.KoreaPurchase" delegate="purchase" player="N.Korea"/>
+      <step name="N.KoreaCombatMove" delegate="move" player="N.Korea"/>
+      <step name="N.KoreaBattle" delegate="battle" player="N.Korea"/>
+      <step name="N.KoreaNonCombatMove" delegate="move" player="N.Korea" display="Non Combat Move"/>
+      <step name="N.KoreaPlace" delegate="place" player="N.Korea"/>
+      <!-- step name="N.KoreaTechActivation" delegate="tech_activation" player="N.Korea"/ -->
+      <step name="N.KoreaEndTurn" delegate="endTurn" player="N.Korea"/>
+      <!-- S.Korea Game Sequence -->
+      <!-- step name="S.KoreaTech" delegate="tech" player="S.Korea"/ -->
+      <step name="S.KoreaPurchase" delegate="purchase" player="S.Korea"/>
+      <step name="S.KoreaCombatMove" delegate="move" player="S.Korea"/>
+      <step name="S.KoreaBattle" delegate="battle" player="S.Korea"/>
+      <step name="S.KoreaNonCombatMove" delegate="move" player="S.Korea" display="Non Combat Move"/>
+      <step name="S.KoreaPlace" delegate="place" player="S.Korea"/>
+      <!-- step name="S.KoreaTechActivation" delegate="tech_activation" player="S.Korea"/ -->
+      <step name="S.KoreaEndTurn" delegate="endTurn" player="S.Korea"/>
+      <!-- Americans Game Sequence -->
+      <!-- step name="AmericansTech" delegate="tech" player="Americans"/ -->
+      <step name="AmericansPurchase" delegate="purchase" player="Americans"/>
+      <step name="AmericansCombatMove" delegate="move" player="Americans"/>
+      <step name="AmericansBattle" delegate="battle" player="Americans"/>
+      <step name="AmericansNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>
+      <step name="AmericansPlace" delegate="place" player="Americans"/>
+      <!-- step name="AmericansTechActivation" delegate="tech_activation" player="Americans"/ -->
+      <step name="AmericansEndTurn" delegate="endTurn" player="Americans"/>
+      <!-- Viet.Minh Game Sequence -->
+      <!-- step name="Viet.MinhTech" delegate="tech" player="Viet.Minh"/ -->
+      <step name="Viet.MinhPurchase" delegate="purchase" player="Viet.Minh"/>
+      <step name="Viet.MinhCombatMove" delegate="move" player="Viet.Minh"/>
+      <step name="Viet.MinhBattle" delegate="battle" player="Viet.Minh"/>
+      <step name="Viet.MinhNonCombatMove" delegate="move" player="Viet.Minh" display="Non Combat Move"/>
+      <step name="Viet.MinhPlace" delegate="place" player="Viet.Minh"/>
+      <!-- step name="Viet.MinhTechActivation" delegate="tech_activation" player="Viet.Minh"/ -->
+      <step name="Viet.MinhEndTurn" delegate="endTurn" player="Viet.Minh"/>
+      <!-- France Game Sequence -->
+      <!-- step name="FranceTech" delegate="tech" player="France"/ -->
+      <!-- step name="FrancePurchase" delegate="purchase" player="France"/ -->
+      <step name="FranceCombatMove" delegate="move" player="France"/>
+      <step name="FranceBattle" delegate="battle" player="France"/>
+      <step name="FranceNonCombatMove" delegate="move" player="France" display="Non Combat Move"/>
+      <!-- step name="FrancePlace" delegate="place" player="France"/ -->
+      <!-- step name="FranceTechActivation" delegate="tech_activation" player="France"/ -->
+      <step name="FranceEndTurn" delegate="endTurn" player="France"/>
+      <!-- Vietnam Game Sequence -->
+      <!-- step name="VietnamTech" delegate="tech" player="Vietnam"/ -->
+      <step name="VietnamPurchase" delegate="purchase" player="Vietnam"/>
+      <step name="VietnamCombatMove" delegate="move" player="Vietnam"/>
+      <step name="VietnamBattle" delegate="battle" player="Vietnam"/>
+      <step name="VietnamNonCombatMove" delegate="move" player="Vietnam" display="Non Combat Move"/>
+      <step name="VietnamPlace" delegate="place" player="Vietnam"/>
+      <!-- step name="VietnamTechActivation" delegate="tech_activation" player="Vietnam"/ -->
+      <step name="VietnamEndTurn" delegate="endTurn" player="Vietnam"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <productionRule name="buyaaGun_Americans">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun_PLA.China">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun_N.Korea">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun_Viet.Minh">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun_RoChina">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun_S.Korea">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun_Vietnam">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_Americans">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_PLA.China">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_N.Korea">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_Viet.Minh">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_RoChina">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_S.Korea">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier_Vietnam">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_Americans">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_PLA.China">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_N.Korea">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_Viet.Minh">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_RoChina">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_S.Korea">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour_Vietnam">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_Americans">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_PLA.China">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_N.Korea">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_Viet.Minh">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_RoChina">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_S.Korea">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery_Vietnam">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_Americans">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_PLA.China">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_N.Korea">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_Viet.Minh">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_RoChina">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_S.Korea">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship_Vietnam">
+      <cost resource="PUs" quantity="24"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_Americans">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_PLA.China">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_N.Korea">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_Viet.Minh">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_RoChina">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_S.Korea">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber_Vietnam">
+      <cost resource="PUs" quantity="18"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_Americans">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_PLA.China">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_N.Korea">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_Viet.Minh">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_RoChina">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_S.Korea">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker_Vietnam">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_Americans">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_PLA.China">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_N.Korea">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_Viet.Minh">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_RoChina">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_S.Korea">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser_Vietnam">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_Americans">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_PLA.China">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_N.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_Viet.Minh">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_RoChina">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_S.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer_Vietnam">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_Americans">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_France">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_PLA.China">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_N.Korea">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_Viet.Minh">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_RoChina">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_S.Korea">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory_Vietnam">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_Americans">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_PLA.China">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_N.Korea">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_Viet.Minh">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_RoChina">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_S.Korea">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhalftrack_Vietnam">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="halftrack" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_Americans">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_PLA.China">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_N.Korea">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_Viet.Minh">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_RoChina">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_S.Korea">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyinfantry_Vietnam">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_Americans">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_PLA.China">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_N.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_Viet.Minh">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_RoChina">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_S.Korea">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter_Vietnam">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_Americans">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_PLA.China">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_N.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_Viet.Minh">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_RoChina">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_S.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine_Vietnam">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTrailConvoy_Viet.Minh">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="TrailConvoy" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_Americans">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_PLA.China">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_N.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_Viet.Minh">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_RoChina">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_S.Korea">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport_Vietnam">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyVietCong_Viet.Minh">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="VietCong" quantity="1"/>
+    </productionRule>
+    <!-- Production Frontiers -->
+    <productionFrontier name="production_Americans">
+      <frontierRules name="buyaaGun_Americans"/>
+      <frontierRules name="buycarrier_Americans"/>
+      <frontierRules name="buyarmour_Americans"/>
+      <frontierRules name="buyartillery_Americans"/>
+      <frontierRules name="buybattleship_Americans"/>
+      <frontierRules name="buybomber_Americans"/>
+      <frontierRules name="buybunker_Americans"/>
+      <frontierRules name="buycruiser_Americans"/>
+      <frontierRules name="buydestroyer_Americans"/>
+      <frontierRules name="buyfactory_Americans"/>
+      <frontierRules name="buyhalftrack_Americans"/>
+      <frontierRules name="buyinfantry_Americans"/>
+      <frontierRules name="buyfighter_Americans"/>
+      <frontierRules name="buysubmarine_Americans"/>
+      <frontierRules name="buytransport_Americans"/>
+    </productionFrontier>
+    <productionFrontier name="production_PLA.China">
+      <frontierRules name="buyaaGun_PLA.China"/>
+      <frontierRules name="buycarrier_PLA.China"/>
+      <frontierRules name="buyarmour_PLA.China"/>
+      <frontierRules name="buyartillery_PLA.China"/>
+      <frontierRules name="buybattleship_PLA.China"/>
+      <frontierRules name="buybomber_PLA.China"/>
+      <frontierRules name="buybunker_PLA.China"/>
+      <frontierRules name="buycruiser_PLA.China"/>
+      <frontierRules name="buydestroyer_PLA.China"/>
+      <frontierRules name="buyfactory_PLA.China"/>
+      <frontierRules name="buyhalftrack_PLA.China"/>
+      <frontierRules name="buyinfantry_PLA.China"/>
+      <frontierRules name="buyfighter_PLA.China"/>
+      <frontierRules name="buysubmarine_PLA.China"/>
+      <frontierRules name="buytransport_PLA.China"/>
+    </productionFrontier>
+    <productionFrontier name="production_N.Korea">
+      <frontierRules name="buyaaGun_N.Korea"/>
+      <frontierRules name="buycarrier_N.Korea"/>
+      <frontierRules name="buyarmour_N.Korea"/>
+      <frontierRules name="buyartillery_N.Korea"/>
+      <frontierRules name="buybattleship_N.Korea"/>
+      <frontierRules name="buybomber_N.Korea"/>
+      <frontierRules name="buybunker_N.Korea"/>
+      <frontierRules name="buycruiser_N.Korea"/>
+      <frontierRules name="buydestroyer_N.Korea"/>
+      <frontierRules name="buyfactory_N.Korea"/>
+      <frontierRules name="buyhalftrack_N.Korea"/>
+      <frontierRules name="buyinfantry_N.Korea"/>
+      <frontierRules name="buyfighter_N.Korea"/>
+      <frontierRules name="buysubmarine_N.Korea"/>
+      <frontierRules name="buytransport_N.Korea"/>
+    </productionFrontier>
+    <productionFrontier name="production_Viet.Minh">
+      <frontierRules name="buyaaGun_Viet.Minh"/>
+      <frontierRules name="buycarrier_Viet.Minh"/>
+      <frontierRules name="buyarmour_Viet.Minh"/>
+      <frontierRules name="buyartillery_Viet.Minh"/>
+      <frontierRules name="buybattleship_Viet.Minh"/>
+      <frontierRules name="buybomber_Viet.Minh"/>
+      <frontierRules name="buybunker_Viet.Minh"/>
+      <frontierRules name="buycruiser_Viet.Minh"/>
+      <frontierRules name="buydestroyer_Viet.Minh"/>
+      <frontierRules name="buyfactory_Viet.Minh"/>
+      <frontierRules name="buyhalftrack_Viet.Minh"/>
+      <frontierRules name="buyinfantry_Viet.Minh"/>
+      <frontierRules name="buyfighter_Viet.Minh"/>
+      <frontierRules name="buysubmarine_Viet.Minh"/>
+      <frontierRules name="buyTrailConvoy_Viet.Minh"/>
+      <frontierRules name="buytransport_Viet.Minh"/>
+      <frontierRules name="buyVietCong_Viet.Minh"/>
+    </productionFrontier>
+    <productionFrontier name="production_RoChina">
+      <frontierRules name="buyaaGun_RoChina"/>
+      <frontierRules name="buycarrier_RoChina"/>
+      <frontierRules name="buyarmour_RoChina"/>
+      <frontierRules name="buyartillery_RoChina"/>
+      <frontierRules name="buybattleship_RoChina"/>
+      <frontierRules name="buybomber_RoChina"/>
+      <frontierRules name="buybunker_RoChina"/>
+      <frontierRules name="buycruiser_RoChina"/>
+      <frontierRules name="buydestroyer_RoChina"/>
+      <frontierRules name="buyfactory_RoChina"/>
+      <frontierRules name="buyhalftrack_RoChina"/>
+      <frontierRules name="buyinfantry_RoChina"/>
+      <frontierRules name="buyfighter_RoChina"/>
+      <frontierRules name="buysubmarine_RoChina"/>
+      <frontierRules name="buytransport_RoChina"/>
+    </productionFrontier>
+    <productionFrontier name="production_S.Korea">
+      <frontierRules name="buyaaGun_S.Korea"/>
+      <frontierRules name="buycarrier_S.Korea"/>
+      <frontierRules name="buyarmour_S.Korea"/>
+      <frontierRules name="buyartillery_S.Korea"/>
+      <frontierRules name="buybattleship_S.Korea"/>
+      <frontierRules name="buybomber_S.Korea"/>
+      <frontierRules name="buybunker_S.Korea"/>
+      <frontierRules name="buycruiser_S.Korea"/>
+      <frontierRules name="buydestroyer_S.Korea"/>
+      <frontierRules name="buyfactory_S.Korea"/>
+      <frontierRules name="buyhalftrack_S.Korea"/>
+      <frontierRules name="buyinfantry_S.Korea"/>
+      <frontierRules name="buyfighter_S.Korea"/>
+      <frontierRules name="buysubmarine_S.Korea"/>
+      <frontierRules name="buytransport_S.Korea"/>
+    </productionFrontier>
+    <productionFrontier name="production_Vietnam">
+      <frontierRules name="buyaaGun_Vietnam"/>
+      <frontierRules name="buycarrier_Vietnam"/>
+      <frontierRules name="buyarmour_Vietnam"/>
+      <frontierRules name="buyartillery_Vietnam"/>
+      <frontierRules name="buybattleship_Vietnam"/>
+      <frontierRules name="buybomber_Vietnam"/>
+      <frontierRules name="buybunker_Vietnam"/>
+      <frontierRules name="buycruiser_Vietnam"/>
+      <frontierRules name="buydestroyer_Vietnam"/>
+      <frontierRules name="buyfactory_Vietnam"/>
+      <frontierRules name="buyhalftrack_Vietnam"/>
+      <frontierRules name="buyinfantry_Vietnam"/>
+      <frontierRules name="buyfighter_Vietnam"/>
+      <frontierRules name="buysubmarine_Vietnam"/>
+      <frontierRules name="buytransport_Vietnam"/>
+    </productionFrontier>
+    <productionFrontier name="production_France">
+      <frontierRules name="buyfactory_France"/>
+    </productionFrontier>
+    <!-- Production Frontier Assignments -->
+    <playerProduction player="Americans" frontier="production_Americans"/>
+    <playerProduction player="France" frontier="production_France"/>
+    <playerProduction player="N.Korea" frontier="production_N.Korea"/>
+    <playerProduction player="Viet.Minh" frontier="production_Viet.Minh"/>
+    <playerProduction player="PLA.China" frontier="production_PLA.China"/>
+    <playerProduction player="RoChina" frontier="production_RoChina"/>
+    <playerProduction player="S.Korea" frontier="production_S.Korea"/>
+    <playerProduction player="Vietnam" frontier="production_Vietnam"/>
+  </production>
+  <attatchmentList>
+    <!-- Tech Attachments -->
+    <!-- Unit Attachments -->
+    <attatchment name="unitAttatchment" attatchTo="infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isAirTransportable" value="true"/>
+      <!-- option name="isParatroop" value="false"/>
+                         <option name="isMechanized" value="false"/ -->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="general" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="canProduceUnits" value="true"/>
+      <!-- option name="isParatroop" value="false"/>
+                         <option name="isMechanized" value="false"/ -->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="artillery" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="bunker" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="4"/>
+      <!-- <option name="isCanNotHitAir " value="true"/> -->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="halftrack" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="false"/>
+      <option name="isLandTransport" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="fighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="6"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="1"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="isAir" value="true"/>
+      <option name="transportCapacity" value="2"/>
+      <option name="isAirTransport" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="isSea" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="carrierCapacity" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="isDestroyer" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="true"/>
+      <option name="isTwoHit" value="false"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="battleship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBombard" value="true"/>
+      <option name="isSea" value="true"/>
+      <option name="isTwoHit" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="submarine" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="isSea" value="true"/>
+      <option name="isSub" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="factory" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="factory_hit" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="aaGun" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isAA" value="true"/>
+      <option name="transportCost" value="3"/>
+      <option name="movement" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="TrailConvoy" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="movement" value="2"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="isSub" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="VietCong" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="attack" value="1"/>
+      <option name="defense" value="3"/>
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isAirTransportable" value="true"/>
+    </attatchment>
+    <!-- Territory Data -->
+    <attatchment name="territoryAttatchment" attatchTo="Akita" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Altay Mountains Region" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Amami" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="An Giang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Anhui" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Aomori" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Binh Dinh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Binh Phuoc" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Binh Thuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ca Mau" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Cambodia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Cambodia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Central Japan Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Central Korea Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cheju Do" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chongqing" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chungcheongnam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Dak Lak" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Data Box" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Dien Bien" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fujian" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fukui" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fukuoka" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Americans"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fukushima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gai Lai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gangwon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gansu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gifu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Guangdong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Guangxi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Guizhou" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gyeonggi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gyeongsangbuk" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gyeongsangnam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ha Giang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ha Noi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="victoryCity" value="true"/>
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ha Tinh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hainan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hebei / Peking" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Heilongjiang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="victoryCity" value="true"/>
+      <option name="capital" value="PLA.China"/>
+      <option name="production" value="8"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Henan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hiroshima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hoa Binh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hokkaido" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hubei" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hunan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hyogo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Inner Mongolia East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Inner Mongolia West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ishikawa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Iwate" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Jeollanam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Jiangsu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Jiangxi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Jilin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kagoshima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kangwon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Khanh Hoa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Khrebet Dzhugdzhur" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kien Giang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kom Tum" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kumamoto" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kuril Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kyoto" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lai Chau" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lake Baikal Region" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lam Dong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lang Son" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Laos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Laos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Liaoning" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Miyagi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Miyako" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mongolia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nagano" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nagasaki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nghe An" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Niigata" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North China Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Hamgyong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Hwangae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Japan Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Kanto" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Korea Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Pyongang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Sakhalin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Tibetan Plateau" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Oita" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Okayama" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Okinawa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Osumi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Philippines" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pusan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="true"/>
+      <option name="capital" value="S.Korea"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pyongyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="victoryCity" value="true"/>
+      <option name="capital" value="N.Korea"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Qinghai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Quang Binh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Quang Nam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Quang Ngai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Quang Tri" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rason" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Resupply from France" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+      <option name="capital" value="France"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ryangang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Saigon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="victoryCity" value="true"/>
+      <option name="capital" value="Vietnam"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Seoul" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shaanxi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shandong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shanxi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shikoku East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shikoku West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shizuoka" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sichuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sikhote-Alin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Soc Trang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Son La" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Hamgyong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Hwangae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Kansai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Korea Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Pyongang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Sakhalin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Tibetan Plateau" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Soviet support to Communist Chinese" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Soviet support to North Japan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Soviet support to North Korea" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Soviet support to Viet Minh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Formosa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Thai Binh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Thailand" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="capital" value="Neutral"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Thanh Hoa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Thua Thien-Hue" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="capital" value="Viet.Minh"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tibet" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tokyo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tuyen Quang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsushima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="United States West Coast" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="11"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Xinjiang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yamagata" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yamaguchi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yaeyama" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yunnan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Zhejiang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="victoryCity" value="true"/>
+      <option name="capital" value="RoChina"/>
+    </attatchment>
+    <!-- triggers -->
+    <attatchment name="NLaos" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="North Laos" count="1"/>
+      <option name="turns" value="1-20"/>
+    </attatchment>
+    <attatchment name="Trail1" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+      <option name="trigger" value="NLaos"/>
+      <option name="placement" value="North Laos:bunker" count="2"/>
+    </attatchment>
+    <attatchment name="SLaos" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="South Laos" count="1"/>
+      <option name="turns" value="1-20"/>
+    </attatchment>
+    <attatchment name="Trail2" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+      <option name="trigger" value="SLaos"/>
+      <option name="placement" value="South Laos:bunker" count="2"/>
+    </attatchment>
+    <attatchment name="NCambodia" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="North Cambodia" count="1"/>
+      <option name="turns" value="1-20"/>
+    </attatchment>
+    <attatchment name="Trail3" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+      <option name="trigger" value="NCambodia"/>
+      <option name="placement" value="North Cambodia:bunker" count="2"/>
+    </attatchment>
+    <attatchment name="SCambodia" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="South Cambodia" count="1"/>
+      <option name="turns" value="1-20"/>
+    </attatchment>
+    <attatchment name="Trail4" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+      <option name="trigger" value="SCambodia"/>
+      <option name="placement" value="South Cambodia:bunker" count="2"/>
+    </attatchment>
+    <!-- Trigger Territory Restrictions (Ho Chi Minh Trail) 
+
+	Players applies to:
+        "Americans" 
+        "France" 
+	"RoChina" 
+	"S.Korea" 
+	"Vietnam" 
+	
+	Territory restrictions:
+	"North Laos"
+	"South Laos"
+	"North Cambodia"
+	"South Cambodia"
+	-->
+    <!-- Triggered Victory
+				<attatchment name="CommunistVictoryConditions" attatchTo="[communist player]" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+					[...]
+				</attatchment>
+				<attatchment name="Communist" attatchTo="[communist player]" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+					<option name="trigger" value="CommunistVictoryConditions"/>
+					<option name="victory" value="The Communists achieve a Triggered Victory by controlling the VCs of Asia!"/>
+	                </attatchment>
+			-->
+    <!-- Territory Restrictions -->
+    <attatchment name="rulesAttatchment" attatchTo="PLA.China" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Tsushima:Nagasaki:Fukuoka:Oita:Kumamoto:Kagoshima:Osumi:Amami:Okinawa:Miyako:Yaeyama:Philippines:United States West Coast:Thailand"/>
+      <option name="movementRestrictionType" value="disallowed"/>
+    </attatchment>
+    <attatchment name="rulesAttatchment" attatchTo="N.Korea" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Tsushima:Nagasaki:Fukuoka:Oita:Kumamoto:Kagoshima:Osumi:Amami:Okinawa:Miyako:Yaeyama:Philippines:United States West Coast:Thailand"/>
+      <option name="movementRestrictionType" value="disallowed"/>
+    </attatchment>
+    <attatchment name="rulesAttatchment" attatchTo="Viet.Minh" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Tsushima:Nagasaki:Fukuoka:Oita:Kumamoto:Kagoshima:Osumi:Amami:Okinawa:Miyako:Yaeyama:Philippines:United States West Coast:Thailand"/>
+      <option name="movementRestrictionType" value="disallowed"/>
+    </attatchment>
+    <!-- canals 
+	<attatchment name="canalAttatchment" attatchTo="Sea Zone 18" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+			<option name="canalName" value="Kitakyushu Canal"/>
+			<option name="landTerritories" value="Fukuoka:Yamaguchi"/>
+	</attatchment>
+	<attatchment name="canalAttatchment" attatchTo="Sea Zone 19" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+			<option name="canalName" value="Kitakyushu Canal"/>
+			<option name="landTerritories" value="Fukuoka:Yamaguchi"/>
+	</attatchment>
+		
+	<attatchment name="canalAttatchment" attatchTo="Sea Zone 19" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+			<option name="canalName" value="Shikoku West Canal"/>
+			<option name="landTerritories" value="Oita:Shikoku West"/>
+	</attatchment>
+	<attatchment name="canalAttatchment" attatchTo="Sea Zone 22" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+			<option name="canalName" value="Shikoku West Canal"/>
+			<option name="landTerritories" value="Oita:Shikoku West"/>
+	</attatchment>
+	
+	<attatchment name="canalAttatchment" attatchTo="Sea Zone 20" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+			<option name="canalName" value="Shikoku East Canal"/>
+			<option name="landTerritories" value="Shikoku East:Hyogo"/>
+	</attatchment>
+	<attatchment name="canalAttatchment" attatchTo="Sea Zone 23" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+			<option name="canalName" value="Shikoku East Canal"/>
+			<option name="landTerritories" value="Shikoku East:Hyogo"/>
+	</attatchment>	
+ -->
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <!-- Americans Owned Territories -->
+      <territoryOwner territory="Amami" owner="Americans"/>
+      <territoryOwner territory="Fukuoka" owner="Americans"/>
+      <territoryOwner territory="Kagoshima" owner="Americans"/>
+      <territoryOwner territory="Kumamoto" owner="Americans"/>
+      <territoryOwner territory="Miyako" owner="Americans"/>
+      <territoryOwner territory="Nagasaki" owner="Americans"/>
+      <territoryOwner territory="Oita" owner="Americans"/>
+      <territoryOwner territory="Okinawa" owner="Americans"/>
+      <territoryOwner territory="Osumi" owner="Americans"/>
+      <territoryOwner territory="Philippines" owner="Neutral"/>
+      <territoryOwner territory="Tsushima" owner="Americans"/>
+      <territoryOwner territory="United States West Coast" owner="Americans"/>
+      <territoryOwner territory="Yaeyama" owner="Americans"/>
+      <!-- PLA.China Owned Territories -->
+      <territoryOwner territory="Heilongjiang" owner="PLA.China"/>
+      <territoryOwner territory="Inner Mongolia East" owner="PLA.China"/>
+      <territoryOwner territory="Inner Mongolia West" owner="PLA.China"/>
+      <territoryOwner territory="Soviet support to Communist Chinese" owner="PLA.China"/>
+      <territoryOwner territory="Henan" owner="PLA.China"/>
+      <territoryOwner territory="Shanxi" owner="PLA.China"/>
+      <territoryOwner territory="Shandong" owner="PLA.China"/>
+      <territoryOwner territory="Jilin" owner="PLA.China"/>
+      <territoryOwner territory="Liaoning" owner="PLA.China"/>
+      <territoryOwner territory="Anhui" owner="PLA.China"/>
+      <territoryOwner territory="Fujian" owner="PLA.China"/>
+      <territoryOwner territory="Gansu" owner="PLA.China"/>
+      <territoryOwner territory="Guangdong" owner="PLA.China"/>
+      <territoryOwner territory="Guangxi" owner="PLA.China"/>
+      <territoryOwner territory="Guizhou" owner="PLA.China"/>
+      <territoryOwner territory="Hubei" owner="PLA.China"/>
+      <territoryOwner territory="Hunan" owner="PLA.China"/>
+      <territoryOwner territory="Jiangsu" owner="PLA.China"/>
+      <territoryOwner territory="Jiangxi" owner="PLA.China"/>
+      <territoryOwner territory="Qinghai" owner="PLA.China"/>
+      <territoryOwner territory="Shaanxi" owner="PLA.China"/>
+      <territoryOwner territory="Sichuan" owner="PLA.China"/>
+      <territoryOwner territory="Xinjiang" owner="PLA.China"/>
+      <territoryOwner territory="Yunnan" owner="PLA.China"/>
+      <!-- France Owned Territories -->
+      <territoryOwner territory="Resupply from France" owner="France"/>
+      <!-- N.Korea Owned Territories -->
+      <territoryOwner territory="Kangwon" owner="N.Korea"/>
+      <territoryOwner territory="North Hamgyong" owner="N.Korea"/>
+      <territoryOwner territory="North Hwangae" owner="N.Korea"/>
+      <territoryOwner territory="North Pyongang" owner="N.Korea"/>
+      <territoryOwner territory="Pyongyang" owner="N.Korea"/>
+      <territoryOwner territory="Rason" owner="N.Korea"/>
+      <territoryOwner territory="Ryangang" owner="N.Korea"/>
+      <territoryOwner territory="South Hamgyong" owner="N.Korea"/>
+      <territoryOwner territory="South Hwangae" owner="N.Korea"/>
+      <territoryOwner territory="South Pyongang" owner="N.Korea"/>
+      <territoryOwner territory="Soviet support to North Korea" owner="N.Korea"/>
+      <!-- Viet.Minh Owned Territories -->
+      <territoryOwner territory="Soviet support to Viet Minh" owner="Viet.Minh"/>
+      <!-- RoChina Owned Territories -->
+      <territoryOwner territory="Hainan" owner="RoChina"/>
+      <territoryOwner territory="Hebei / Peking" owner="RoChina"/>
+      <territoryOwner territory="Formosa" owner="RoChina"/>
+      <territoryOwner territory="Chongqing" owner="RoChina"/>
+      <territoryOwner territory="Zhejiang" owner="RoChina"/>
+      <!-- S.Korea Owned Territories -->
+      <territoryOwner territory="Cheju Do" owner="S.Korea"/>
+      <territoryOwner territory="Chungcheongnam" owner="S.Korea"/>
+      <territoryOwner territory="Gangwon" owner="S.Korea"/>
+      <territoryOwner territory="Gyeonggi" owner="S.Korea"/>
+      <territoryOwner territory="Gyeongsangbuk" owner="S.Korea"/>
+      <territoryOwner territory="Gyeongsangnam" owner="S.Korea"/>
+      <territoryOwner territory="Jeollanam" owner="S.Korea"/>
+      <territoryOwner territory="Pusan" owner="S.Korea"/>
+      <territoryOwner territory="Seoul" owner="S.Korea"/>
+      <!-- Vietnam Owned Territories -->
+      <territoryOwner territory="An Giang" owner="Vietnam"/>
+      <territoryOwner territory="Binh Dinh" owner="Vietnam"/>
+      <territoryOwner territory="Binh Phuoc" owner="Vietnam"/>
+      <territoryOwner territory="Binh Thuan" owner="Vietnam"/>
+      <territoryOwner territory="Ca Mau" owner="Vietnam"/>
+      <territoryOwner territory="Dak Lak" owner="Vietnam"/>
+      <territoryOwner territory="Dien Bien" owner="Vietnam"/>
+      <territoryOwner territory="Gai Lai" owner="Vietnam"/>
+      <territoryOwner territory="Ha Giang" owner="Vietnam"/>
+      <territoryOwner territory="Ha Noi" owner="Vietnam"/>
+      <territoryOwner territory="Ha Tinh" owner="Vietnam"/>
+      <territoryOwner territory="Hoa Binh" owner="Vietnam"/>
+      <territoryOwner territory="Khanh Hoa" owner="Vietnam"/>
+      <territoryOwner territory="Kien Giang" owner="Vietnam"/>
+      <territoryOwner territory="Kom Tum" owner="Vietnam"/>
+      <territoryOwner territory="Lai Chau" owner="Vietnam"/>
+      <territoryOwner territory="Lam Dong" owner="Vietnam"/>
+      <territoryOwner territory="Lang Son" owner="Vietnam"/>
+      <territoryOwner territory="Nghe An" owner="Vietnam"/>
+      <territoryOwner territory="Quang Binh" owner="Vietnam"/>
+      <territoryOwner territory="Quang Nam" owner="Vietnam"/>
+      <territoryOwner territory="Quang Ngai" owner="Vietnam"/>
+      <territoryOwner territory="Quang Tri" owner="Vietnam"/>
+      <territoryOwner territory="Saigon" owner="Vietnam"/>
+      <territoryOwner territory="Soc Trang" owner="Vietnam"/>
+      <territoryOwner territory="Son La" owner="Vietnam"/>
+      <territoryOwner territory="Thai Binh" owner="Vietnam"/>
+      <territoryOwner territory="Thanh Hoa" owner="Vietnam"/>
+      <territoryOwner territory="Thua Thien-Hue" owner="Vietnam"/>
+      <territoryOwner territory="Tuyen Quang" owner="Vietnam"/>
+      <!-- Neutral Owned Territories -->
+      <territoryOwner territory="Tibet" owner="Neutral"/>
+      <territoryOwner territory="Mongolia" owner="Neutral"/>
+      <territoryOwner territory="Thailand" owner="Neutral"/>
+      <territoryOwner territory="North Cambodia" owner="Neutral"/>
+      <territoryOwner territory="South Cambodia" owner="Neutral"/>
+      <territoryOwner territory="North Laos" owner="Neutral"/>
+      <territoryOwner territory="South Laos" owner="Neutral"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <!-- Americans Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Fukuoka" quantity="2" owner="Americans"/>
+      <unitPlacement unitType="armour" territory="Fukuoka" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="factory" territory="Fukuoka" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="bomber" territory="Fukuoka" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="Fukuoka" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 44" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="destroyer" territory="Sea Zone 44" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Kagoshima" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Kumamoto" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Miyako" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="armour" territory="Nagasaki" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Oita" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Okinawa" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Osumi" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Philippines" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 74" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="destroyer" territory="Sea Zone 74" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="submarine" territory="Sea Zone 74" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="factory" territory="United States West Coast" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="United States West Coast" quantity="15" owner="Americans"/>
+      <unitPlacement unitType="armour" territory="United States West Coast" quantity="10" owner="Americans"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 60" quantity="3" owner="Americans"/>
+      <unitPlacement unitType="submarine" territory="Sea Zone 60" quantity="2" owner="Americans"/>
+      <unitPlacement unitType="destroyer" territory="Sea Zone 60" quantity="2" owner="Americans"/>
+      <unitPlacement unitType="carrier" territory="Sea Zone 60" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="Sea Zone 60" quantity="2" owner="Americans"/>
+      <!-- PLA.China Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Heilongjiang" quantity="14" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Heilongjiang" quantity="4" owner="PLA.China"/>
+      <unitPlacement unitType="halftrack" territory="Heilongjiang" quantity="2" owner="PLA.China"/>
+      <unitPlacement unitType="factory" territory="Heilongjiang" quantity="1" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Henan" quantity="3" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Henan" quantity="2" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Inner Mongolia East" quantity="9" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Inner Mongolia East" quantity="3" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Inner Mongolia West" quantity="4" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Inner Mongolia West" quantity="10" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Jilin" quantity="8" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Jilin" quantity="1" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Liaoning" quantity="6" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Liaoning" quantity="1" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Shandong" quantity="5" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Shandong" quantity="1" owner="PLA.China"/>
+      <unitPlacement unitType="infantry" territory="Shanxi" quantity="4" owner="PLA.China"/>
+      <unitPlacement unitType="armour" territory="Shanxi" quantity="1" owner="PLA.China"/>
+      <!-- France Unit Placements -->
+      <unitPlacement unitType="infantry" territory="North Cambodia" quantity="4" owner="France"/>
+      <unitPlacement unitType="infantry" territory="South Cambodia" quantity="4" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Saigon" quantity="6" owner="France"/>
+      <unitPlacement unitType="armour" territory="Saigon" quantity="3" owner="France"/>
+      <unitPlacement unitType="bomber" territory="Saigon" quantity="1" owner="France"/>
+      <unitPlacement unitType="fighter" territory="Saigon" quantity="2" owner="France"/>
+      <unitPlacement unitType="aaGun" territory="Saigon" quantity="1" owner="France"/>
+      <unitPlacement unitType="battleship" territory="Sea Zone 71" quantity="1" owner="France"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 71" quantity="2" owner="France"/>
+      <unitPlacement unitType="cruiser" territory="Sea Zone 71" quantity="1" owner="France"/>
+      <unitPlacement unitType="destroyer" territory="Sea Zone 71" quantity="2" owner="France"/>
+      <unitPlacement unitType="factory" territory="Ha Noi" quantity="1" owner="Vietnam"/>
+      <unitPlacement unitType="aaGun" territory="Ha Noi" quantity="1" owner="Vietnam"/>
+      <unitPlacement unitType="armour" territory="Ha Noi" quantity="6" owner="France"/>
+      <unitPlacement unitType="halftrack" territory="Ha Noi" quantity="2" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Ha Noi" quantity="11" owner="France"/>
+      <unitPlacement unitType="fighter" territory="Ha Noi" quantity="2" owner="France"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 40" quantity="1" owner="France"/>
+      <unitPlacement unitType="destroyer" territory="Sea Zone 40" quantity="1" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Dien Bien" quantity="3" owner="France"/>
+      <unitPlacement unitType="armour" territory="Dien Bien" quantity="2" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Lai Chau" quantity="3" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Binh Phuoc" quantity="4" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Binh Thuan" quantity="4" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Dak Lak" quantity="5" owner="France"/>
+      <unitPlacement unitType="armour" territory="Dak Lak" quantity="1" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Gai Lai" quantity="4" owner="France"/>
+      <unitPlacement unitType="armour" territory="Gai Lai" quantity="1" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Khanh Hoa" quantity="4" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Kom Tum" quantity="4" owner="France"/>
+      <unitPlacement unitType="armour" territory="Kom Tum" quantity="2" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Lam Dong" quantity="4" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Soc Trang" quantity="3" owner="France"/>
+      <unitPlacement unitType="armour" territory="Soc Trang" quantity="2" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Thai Binh" quantity="2" owner="France"/>
+      <unitPlacement unitType="armour" territory="Thai Binh" quantity="1" owner="France"/>
+      <!-- N.Japan Unit Placements -->
+      <!-- N.Korea Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Kangwon" quantity="7" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="Kangwon" quantity="5" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="North Hamgyong" quantity="6" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="North Hamgyong" quantity="2" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="North Hwangae" quantity="5" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="North Hwangae" quantity="2" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="North Pyongang" quantity="7" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="North Pyongang" quantity="2" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="Pyongyang" quantity="10" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="Pyongyang" quantity="5" owner="N.Korea"/>
+      <unitPlacement unitType="fighter" territory="Pyongyang" quantity="6" owner="N.Korea"/>
+      <unitPlacement unitType="bomber" territory="Pyongyang" quantity="1" owner="N.Korea"/>
+      <unitPlacement unitType="aaGun" territory="Pyongyang" quantity="1" owner="N.Korea"/>
+      <unitPlacement unitType="factory" territory="Pyongyang" quantity="1" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="Rason" quantity="8" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="Rason" quantity="1" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="Ryangang" quantity="6" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="Ryangang" quantity="2" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="South Hamgyong" quantity="6" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="South Hamgyong" quantity="3" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="South Hwangae" quantity="5" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="South Hwangae" quantity="3" owner="N.Korea"/>
+      <unitPlacement unitType="infantry" territory="South Pyongang" quantity="4" owner="N.Korea"/>
+      <unitPlacement unitType="armour" territory="South Pyongang" quantity="2" owner="N.Korea"/>
+      <!-- Viet.Minh Unit Placements -->
+      <unitPlacement unitType="infantry" territory="An Giang" quantity="4" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Binh Dinh" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Ca Mau" quantity="4" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Ha Giang" quantity="4" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Ha Tinh" quantity="4" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Ha Tinh" quantity="2" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Hoa Binh" quantity="4" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Kien Giang" quantity="4" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Lang Son" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Nghe An" quantity="3" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Nghe An" quantity="2" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Quang Binh" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Quang Binh" quantity="2" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Quang Nam" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Quang Ngai" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Quang Tri" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Quang Tri" quantity="2" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Son La" quantity="6" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Son La" quantity="3" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Thanh Hoa" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Thua Thien-Hue" quantity="5" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Thua Thien-Hue" quantity="3" owner="Viet.Minh"/>
+      <unitPlacement unitType="fighter" territory="Thua Thien-Hue" quantity="1" owner="Viet.Minh"/>
+      <unitPlacement unitType="armour" territory="Thua Thien-Hue" quantity="1" owner="Viet.Minh"/>
+      <unitPlacement unitType="factory" territory="Thua Thien-Hue" quantity="1" owner="Viet.Minh"/>
+      <unitPlacement unitType="infantry" territory="Tuyen Quang" quantity="4" owner="Viet.Minh"/>
+      <!-- RoChina Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Anhui" quantity="3" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Chongqing" quantity="4" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Chongqing" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="factory" territory="Chongqing" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Fujian" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Gansu" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Guangdong" quantity="3" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Guangdong" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="factory" territory="Guangdong" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Guangxi" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Guizhou" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Hainan" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Hebei / Peking" quantity="13" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Hebei / Peking" quantity="6" owner="RoChina"/>
+      <unitPlacement unitType="fighter" territory="Hebei / Peking" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="factory" territory="Hebei / Peking" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="aaGun" territory="Hebei / Peking" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="cruiser" territory="Sea Zone 28" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="destroyer" territory="Sea Zone 28" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 28" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Hubei" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Hubei" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Hunan" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Jiangsu" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Jiangsu" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Jiangxi" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Qinghai" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Shaanxi" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Shaanxi" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Sichuan" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Formosa" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 31" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Xinjiang" quantity="1" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Yunnan" quantity="3" owner="RoChina"/>
+      <unitPlacement unitType="infantry" territory="Zhejiang" quantity="3" owner="RoChina"/>
+      <unitPlacement unitType="armour" territory="Zhejiang" quantity="2" owner="RoChina"/>
+      <unitPlacement unitType="factory" territory="Zhejiang" quantity="1" owner="RoChina"/>
+      <!-- S.Korea Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Chungcheongnam" quantity="4" owner="S.Korea"/>
+      <unitPlacement unitType="armour" territory="Chungcheongnam" quantity="2" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Gangwon" quantity="5" owner="S.Korea"/>
+      <unitPlacement unitType="armour" territory="Gangwon" quantity="2" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Gyeonggi" quantity="5" owner="S.Korea"/>
+      <unitPlacement unitType="armour" territory="Gyeonggi" quantity="3" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Gyeongsangbuk" quantity="4" owner="S.Korea"/>
+      <unitPlacement unitType="armour" territory="Gyeongsangbuk" quantity="2" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Gyeongsangnam" quantity="4" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Jeollanam" quantity="4" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Pusan" quantity="7" owner="S.Korea"/>
+      <unitPlacement unitType="armour" territory="Pusan" quantity="5" owner="S.Korea"/>
+      <unitPlacement unitType="fighter" territory="Pusan" quantity="3" owner="S.Korea"/>
+      <unitPlacement unitType="bomber" territory="Pusan" quantity="1" owner="S.Korea"/>
+      <unitPlacement unitType="factory" territory="Pusan" quantity="1" owner="S.Korea"/>
+      <unitPlacement unitType="infantry" territory="Seoul" quantity="18" owner="S.Korea"/>
+      <unitPlacement unitType="armour" territory="Seoul" quantity="9" owner="S.Korea"/>
+      <unitPlacement unitType="fighter" territory="Seoul" quantity="4" owner="S.Korea"/>
+      <unitPlacement unitType="aaGun" territory="Seoul" quantity="1" owner="S.Korea"/>
+      <unitPlacement unitType="bomber" territory="Seoul" quantity="1" owner="S.Korea"/>
+      <unitPlacement unitType="factory" territory="Seoul" quantity="1" owner="S.Korea"/>
+      <!-- Vietnam Unit Placements -->
+      <unitPlacement unitType="factory" territory="Saigon" quantity="1" owner="Vietnam"/>
+      <!-- Neutral Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Tibet" quantity="2" owner="Neutral"/>
+      <unitPlacement unitType="armour" territory="Tibet" quantity="2" owner="Neutral"/>
+      <unitPlacement unitType="infantry" territory="North Laos" quantity="3" owner="France"/>
+      <unitPlacement unitType="infantry" territory="South Laos" quantity="3" owner="France"/>
+      <unitPlacement unitType="infantry" territory="Mongolia" quantity="5" owner="Neutral"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Americans" resource="PUs" quantity="50"/>
+      <resourceGiven player="PLA.China" resource="PUs" quantity="19"/>
+      <resourceGiven player="France" resource="PUs" quantity="0"/>
+      <resourceGiven player="N.Korea" resource="PUs" quantity="18"/>
+      <resourceGiven player="Viet.Minh" resource="PUs" quantity="15"/>
+      <resourceGiven player="RoChina" resource="PUs" quantity="24"/>
+      <resourceGiven player="S.Korea" resource="PUs" quantity="14"/>
+      <resourceGiven player="Vietnam" resource="PUs" quantity="20"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="Americans bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="PLA.China bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="France bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="N.Korea bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="Viet.Minh bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="RoChina bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="S.Korea bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="Vietnam bid" value="0" editable="true">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="4th Edition" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Anniversary Edition" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="LHTR carrier production rules" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Pacific Edition" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Projection of Power" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Honorable Surrender" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Total Victory" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="neutralCharge" value="0" editable="false">
+      <number min="0" max="500000"/>
+    </property>
+    <property name="Use Triggers" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Movement By Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="notes">
+      <value><![CDATA[COLD WAR ASIA: 1948<br>
+==========================
+<br>By C. Cade Mosley (demagogue)<p>
+
+
+The game covers three interconnected civil wars between pro-democracy and pro-communist forces following the end of WWII, 
+circa 1947-1948 and extending past 1950 -- the Chinese Revolution, the Korean War, and the First Indochina War. <p>
+<b>Victory Condition</b>: An alliance occupies 10 of the 11 Victory Cities. <p>
+The players in order are: <br>
+PLA.China (People's Liberation Army): Communist<br>
+RoChina (Republic of China): Democracy<br>
+N.Korea (North Korea): Communist<br>
+S.Korea (South Korea): Democracy<br>
+Americans: Democracy<br>
+Viet Minh: Communist<br>
+France: Democracy<br>
+Vietnam: Democracy<p>
+Notes: <p>
+
+- The map scale is morphed so that China is relatively small and Japan, Korea, and Vietnam are relatively large. 
+This allows all four theatres to be in the same map at a playable scale without insets. 
+<p>
+
+- France does not have support to simulate its eventual pullout from French Indochina (Vietnam). 
+Its first task (in theory, anyway) is to help build and shelter the Vietnamese army (which starts with zero units) as long as its units hold out. France and Vietnam should be played by the same player. 
+<p>
+- Any land France captures from Viet.Minh "liberates" it for S. Vietnam. 
+Similarly, any land N. Vietnam captures from the Rep. of China liberates for PLA.China.
+<p>
+- fighters are 1 PU cheaper for N.Korea. Welcome to MIG Alley. <p>
+
+- When the Viet Minh occupy one of N/S Laos or N/S Cambodia, for each turn they occupy a bunker is set up to simulate both communist sympathy 
+and eventually the Ho Chi Minh trail, requiring either "winning hearts and minds" back to democracy by force early on, or letting the land
+become untoucable to all but bombers as the real Ho Chi Minh trail became. <p>
+- The Soviet Union gives money to every Communist player.<p>
+
+Play Information: The game is generally balanced so that the United States is overhanded while S.Korea, the RoChina, and France/Vietnam are underhanded. The general plan for the Democracies (in theory) is for these countries to hold the line until the Americans can free their forces to assist each one in turn. The general Communist plan (in theory) is to tie up the Americans and overwhelm each opponent before the Americans are able to commit support.
+]]></value>
+    </property>
+    <property name="mapName" value="cold_war_asia1948" editable="false"/>
+  </propertyList>
+</game>
