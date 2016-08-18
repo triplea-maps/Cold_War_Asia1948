@@ -1385,8 +1385,8 @@
       <option name="artillerySupportable" value="true"/>
       <option name="isInfantry" value="true"/>
       <option name="isAirTransportable" value="true"/>
-      <!-- option name="isParatroop" value="false"/>
-                         <option name="isMechanized" value="false"/ -->
+      <!-- option name="isAirTransportable" value="false"/>
+                         <option name="isInfantry" value="false"/ -->
     </attachment>
     <attachment name="unitAttachment" attachTo="general" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1397,8 +1397,8 @@
       <option name="artillerySupportable" value="true"/>
       <option name="isInfantry" value="true"/>
       <option name="canProduceUnits" value="true"/>
-      <!-- option name="isParatroop" value="false"/>
-                         <option name="isMechanized" value="false"/ -->
+      <!-- option name="isAirTransportable" value="false"/>
+                         <option name="isInfantry" value="false"/ -->
     </attachment>
     <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1471,7 +1471,7 @@
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
       <option name="canBombard" value="true"/>
-      <option name="isTwoHit" value="false"/>
+      <option name="hitPoints" value="1"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1479,7 +1479,7 @@
       <option name="defense" value="4"/>
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1563,7 +1563,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chongqing" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chungcheongnam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1604,7 +1604,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Guangdong" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Guangxi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1625,7 +1625,7 @@
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ha Noi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="production" value="5"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ha Tinh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1636,10 +1636,10 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Hebei / Peking" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Heilongjiang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="PLA.China"/>
       <option name="production" value="8"/>
     </attachment>
@@ -1801,12 +1801,12 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pusan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="S.Korea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pyongyang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="N.Korea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Qinghai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1837,12 +1837,12 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Saigon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="Vietnam"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Seoul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Shaanxi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1923,7 +1923,7 @@
     <attachment name="territoryAttachment" attachTo="Thua Thien-Hue" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
       <option name="capital" value="Viet.Minh"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tibet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1957,13 +1957,13 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Zhejiang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
       <option name="capital" value="RoChina"/>
     </attachment>
     <!-- triggers -->
     <attachment name="NLaos" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="alliedOwnershipTerritories" value="North Laos" count="1"/>
-      <option name="turns" value="1-20"/>
+      <option name="rounds" value="1-20"/>
     </attachment>
     <attachment name="Trail1" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="NLaos"/>
@@ -1971,7 +1971,7 @@
     </attachment>
     <attachment name="SLaos" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="alliedOwnershipTerritories" value="South Laos" count="1"/>
-      <option name="turns" value="1-20"/>
+      <option name="rounds" value="1-20"/>
     </attachment>
     <attachment name="Trail2" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="SLaos"/>
@@ -1979,7 +1979,7 @@
     </attachment>
     <attachment name="NCambodia" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="alliedOwnershipTerritories" value="North Cambodia" count="1"/>
-      <option name="turns" value="1-20"/>
+      <option name="rounds" value="1-20"/>
     </attachment>
     <attachment name="Trail3" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="NCambodia"/>
@@ -1987,7 +1987,7 @@
     </attachment>
     <attachment name="SCambodia" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="alliedOwnershipTerritories" value="South Cambodia" count="1"/>
-      <option name="turns" value="1-20"/>
+      <option name="rounds" value="1-20"/>
     </attachment>
     <attachment name="Trail4" attachTo="Viet.Minh" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="SCambodia"/>
