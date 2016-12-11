@@ -1474,8 +1474,6 @@
       <option name="artillerySupportable" value="true"/>
       <option name="isInfantry" value="true"/>
       <option name="isAirTransportable" value="true"/>
-      <!-- option name="isAirTransportable" value="false"/>
-                         <option name="isInfantry" value="false"/ -->
     </attachment>
     <attachment name="unitAttachment" attachTo="general" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1485,8 +1483,6 @@
       <option name="artillerySupportable" value="true"/>
       <option name="isInfantry" value="true"/>
       <option name="canProduceUnits" value="true"/>
-      <!-- option name="isAirTransportable" value="false"/>
-                         <option name="isInfantry" value="false"/ -->
     </attachment>
     <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -1506,7 +1502,6 @@
       <option name="movement" value="0"/>
       <option name="attack" value="0"/>
       <option name="defense" value="4"/>
-      <!-- <option name="isCanNotHitAir " value="true"/> -->
     </attachment>
     <attachment name="unitAttachment" attachTo="halftrack" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
