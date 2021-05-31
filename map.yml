@@ -1,0 +1,4 @@
+map_name: cold_war_asia1948
+games:
+- {game_name: 'Cold War Asia: 1948+Japan', file_name: ColdWarAsia1948Japan.xml}
+- {game_name: 'Cold War Asia: 1948', file_name: ColdWarAsia1948.xml}
